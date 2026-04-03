@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
-import plotly as px
+import plotly.express as px
+import plotly.graph_objects as go
+
 
 st.set_page_config(page_title="Skycity Restaurants & Bars", layout="wide", page_icon="🍽️")
 
